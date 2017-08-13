@@ -1,0 +1,42 @@
+/**
+ * 
+ */
+package com.nandulabs.shoppingcart.admin.web.validators;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.MessageSource;
+import org.springframework.stereotype.Component;
+import org.springframework.validation.Errors;
+import org.springframework.validation.Validator;
+
+import com.nandulabs.shoppingcart.entities.User;
+import com.nandulabs.shoppingcart.security.SecurityService;
+
+/**
+ * @author Nandu
+ *
+ */
+@Component
+public class UserValidator implements Validator {
+	
+	@Autowired
+	protected MessageSource messageSource;
+	@Autowired
+	protected SecurityService securityService;
+
+	@Override
+	public boolean supports(Class<?> clazz) {
+		return User.class.isAssignableFrom(clazz);
+	}
+
+	@Override
+	public void validate(Object target, Errors errors) {
+		User user = (User) target;
+		String email = user.getEmail();
+		User userByEmail = securityService.findUserByEmail(email);
+		if (userByEmail != null) {
+			errors.rejectValue("email", "error.exists", new Object[] { email }, "Email " + email + " already in use");
+		}
+	}
+
+}
