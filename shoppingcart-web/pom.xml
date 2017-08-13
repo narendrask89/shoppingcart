@@ -10,15 +10,6 @@
 	</parent>
 	<artifactId>shoppingcart-web</artifactId>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-
 	<dependencies>
 		<dependency>
 			<groupId>com.nandulabs</groupId>
@@ -57,4 +48,14 @@
 			<version>2.3</version>
 		</dependency>
 	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>1.5.6.RELEASE</version>
+			</plugin>
+		</plugins>
+	</build>
 </project>
