@@ -3,7 +3,7 @@ ShoppingCart is a simple e-commerce application built with Spring.
 
 How to run it?
 
-git clone https://github.com/sivaprasadreddy/shoppingcart.git
+git clone https://github.com/narendrask89/shoppingcart.git
 
 cd shoppingcart
 
