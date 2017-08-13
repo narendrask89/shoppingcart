@@ -79,7 +79,7 @@ public class OrderController extends ShoppingCartAdminBaseController {
 			// Create the HTML body using Thymeleaf
 			final String htmlContent = this.templateEngine.process("order-status-update-email", ctx);
 
-			emailService.sendEmail(order.getCustomer().getEmail(), "QuilCartCart - Order Status Update", htmlContent);
+			emailService.sendEmail(order.getCustomer().getEmail(), "ShoppingCart - Order Status Update", htmlContent);
 		} catch (ShoppingCartException e) {
 			logger.error(e);
 		}

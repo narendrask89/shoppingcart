@@ -23,15 +23,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.nandulabs.shoppingcart.ShoppingCartException;
 import com.nandulabs.shoppingcart.common.services.EmailService;
 import com.nandulabs.shoppingcart.customers.CustomerService;
-import com.nandulabs.shoppingcart.site.web.models.Cart;
-import com.nandulabs.shoppingcart.site.web.models.LineItem;
-import com.nandulabs.shoppingcart.site.web.models.OrderDTO;
 import com.nandulabs.shoppingcart.entities.Address;
 import com.nandulabs.shoppingcart.entities.Customer;
 import com.nandulabs.shoppingcart.entities.Order;
 import com.nandulabs.shoppingcart.entities.OrderItem;
 import com.nandulabs.shoppingcart.entities.Payment;
 import com.nandulabs.shoppingcart.orders.OrderService;
+import com.nandulabs.shoppingcart.site.web.models.Cart;
+import com.nandulabs.shoppingcart.site.web.models.LineItem;
+import com.nandulabs.shoppingcart.site.web.models.OrderDTO;
 
 /**
  * @author Nandu
@@ -117,7 +117,7 @@ public class OrderController extends ShoppingCartSiteBaseController
 	{
 		try {
 			emailService.sendEmail(order.getCustomer().getEmail(), 
-					"QuilCartCart - Order Confirmation", 
+					"ShoppingCart - Order Confirmation",
 					"Your order has been placed successfully.\n"
 					+ "Order Number : "+order.getOrderNumber());
 		} catch (ShoppingCartException e) {
