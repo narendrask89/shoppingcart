@@ -22,10 +22,10 @@ import com.nandulabs.shoppingcart.entities.Product;
 public class CatalogService {
 
 	@Autowired
-	CategoryRepository categoryRepository;
+	private CategoryRepository categoryRepository;
 	
 	@Autowired
-	ProductRepository productRepository;
+	private ProductRepository productRepository;
 
 	public List<Category> getAllCategories() {
 

@@ -47,6 +47,11 @@
 			<artifactId>commons-io</artifactId>
 			<version>2.3</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 	
 	<build>
@@ -54,7 +59,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>1.5.8.RELEASE</version>
+				<version>1.5.9.RELEASE</version>
 			</plugin>
 		</plugins>
 	</build>
