@@ -21,7 +21,7 @@
 
 							<p class="form-row form-row-first">
 								<label for="firstName">FirstName <span class="required">*</span>
-								</label> <input type="text" th:field="*{firstName}" class="input-text" />
+								</label> <input type="text" th:field="*{firstName}" class="input-text" required="required" />
 							<p th:if="${#fields.hasErrors('firstName')}"
 								th:errors="*{firstName}" th:errorclass="text-danger">Incorrect
 								data</p>
@@ -29,7 +29,7 @@
 
 							<p class="form-row form-row-first">
 								<label for="lastName">LastName <span class="required">*</span>
-								</label> <input type="text" th:field="*{lastName}" class="input-text" />
+								</label> <input type="text" th:field="*{lastName}" class="input-text" required="required" />
 							<p th:if="${#fields.hasErrors('lastName')}"
 								th:errors="*{lastName}" th:errorclass="text-danger">Incorrect
 								data</p>
@@ -39,14 +39,14 @@
 							<p class="form-row form-row-first">
 								<label for="email">Email <span class="required">*</span>
 								</label> <input type="email" th:field="*{email}" class="input-text"
-									placeholder="Email" />
+									placeholder="Email" required="required" />
 							<p th:if="${#fields.hasErrors('email')}" th:errors="*{email}"
 								th:errorclass="text-danger">Incorrect data</p>
 							</p>
 							<p class="form-row form-row-last">
 								<label for="password">Password <span class="required">*</span>
 								</label> <input type="password" th:field="*{password}"
-									class="input-text" placeholder="Password" />
+									class="input-text" placeholder="Password" required="required"/>
 							<p th:if="${#fields.hasErrors('password')}"
 								th:errors="*{password}" th:errorclass="text-danger">Incorrect
 								data</p>
@@ -54,7 +54,7 @@
 
 							<p class="form-row form-row-first">
 								<label for="phone">Phone <span class="required">*</span>
-								</label> <input type="text" th:field="*{phone}" class="input-text" />
+								</label> <input type="text" th:field="*{phone}" class="input-text" required="required"/>
 							<p th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}"
 								th:errorclass="text-danger">Incorrect data</p>
 							</p>
