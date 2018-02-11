@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.nandulabs.shoppingcart.admin.security.SecurityUtil;
-import com.nandulabs.shoppingcart.customers.CustomerService;
 import com.nandulabs.shoppingcart.entities.Customer;
+import com.nandulabs.shoppingcart.service.CustomerService;
 
 /**
  * @author Nandu

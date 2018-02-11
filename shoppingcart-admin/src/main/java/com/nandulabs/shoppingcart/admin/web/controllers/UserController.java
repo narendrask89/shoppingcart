@@ -26,7 +26,7 @@ import com.nandulabs.shoppingcart.admin.security.SecurityUtil;
 import com.nandulabs.shoppingcart.admin.web.validators.UserValidator;
 import com.nandulabs.shoppingcart.entities.Role;
 import com.nandulabs.shoppingcart.entities.User;
-import com.nandulabs.shoppingcart.security.SecurityService;
+import com.nandulabs.shoppingcart.service.SecurityService;
 
 /**
  * @author Nandu

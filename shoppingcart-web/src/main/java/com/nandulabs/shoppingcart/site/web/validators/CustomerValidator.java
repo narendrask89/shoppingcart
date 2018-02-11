@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
-import com.nandulabs.shoppingcart.customers.CustomerService;
 import com.nandulabs.shoppingcart.entities.Customer;
+import com.nandulabs.shoppingcart.service.CustomerService;
 
 /**
  * @author Nandu

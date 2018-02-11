@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.nandulabs.shoppingcart.security;
+package com.nandulabs.shoppingcart.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +16,9 @@ import com.nandulabs.shoppingcart.ShoppingCartException;
 import com.nandulabs.shoppingcart.entities.Permission;
 import com.nandulabs.shoppingcart.entities.Role;
 import com.nandulabs.shoppingcart.entities.User;
+import com.nandulabs.shoppingcart.repository.PermissionRepository;
+import com.nandulabs.shoppingcart.repository.RoleRepository;
+import com.nandulabs.shoppingcart.repository.UserRepository;
 
 /**
  * @author Nandu

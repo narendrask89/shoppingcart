@@ -10,8 +10,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.nandulabs.shoppingcart.customers.CustomerService;
 import com.nandulabs.shoppingcart.entities.Customer;
+import com.nandulabs.shoppingcart.service.CustomerService;
 
 
 

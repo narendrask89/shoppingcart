@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.nandulabs.shoppingcart.entities.User;
-import com.nandulabs.shoppingcart.security.SecurityService;
+import com.nandulabs.shoppingcart.service.SecurityService;
 
 
 

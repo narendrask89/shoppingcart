@@ -10,8 +10,8 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 import com.nandulabs.shoppingcart.admin.web.models.ProductForm;
-import com.nandulabs.shoppingcart.catalog.CatalogService;
 import com.nandulabs.shoppingcart.entities.Product;
+import com.nandulabs.shoppingcart.service.CatalogService;
 
 /**
  * @author Nandu

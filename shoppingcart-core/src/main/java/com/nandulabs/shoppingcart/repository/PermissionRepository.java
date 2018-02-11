@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.nandulabs.shoppingcart.security;
+package com.nandulabs.shoppingcart.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

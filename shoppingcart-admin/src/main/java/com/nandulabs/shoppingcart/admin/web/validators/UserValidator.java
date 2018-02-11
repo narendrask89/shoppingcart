@@ -10,7 +10,7 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 import com.nandulabs.shoppingcart.entities.User;
-import com.nandulabs.shoppingcart.security.SecurityService;
+import com.nandulabs.shoppingcart.service.SecurityService;
 
 /**
  * @author Nandu

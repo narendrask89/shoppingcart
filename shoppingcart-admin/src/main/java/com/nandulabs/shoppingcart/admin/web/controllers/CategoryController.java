@@ -20,8 +20,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.nandulabs.shoppingcart.admin.security.SecurityUtil;
 import com.nandulabs.shoppingcart.admin.web.validators.CategoryValidator;
-import com.nandulabs.shoppingcart.catalog.CatalogService;
 import com.nandulabs.shoppingcart.entities.Category;
+import com.nandulabs.shoppingcart.service.CatalogService;
 
 /**
  * @author Nandu

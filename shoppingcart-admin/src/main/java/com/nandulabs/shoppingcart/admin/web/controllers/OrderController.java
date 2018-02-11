@@ -22,7 +22,7 @@ import com.nandulabs.shoppingcart.ShoppingCartException;
 import com.nandulabs.shoppingcart.admin.security.SecurityUtil;
 import com.nandulabs.shoppingcart.common.services.EmailService;
 import com.nandulabs.shoppingcart.entities.Order;
-import com.nandulabs.shoppingcart.orders.OrderService;
+import com.nandulabs.shoppingcart.service.OrderService;
 
 /**
  * @author Nandu

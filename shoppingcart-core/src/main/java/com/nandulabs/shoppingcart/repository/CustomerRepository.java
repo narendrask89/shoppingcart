@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.nandulabs.shoppingcart.customers;
+package com.nandulabs.shoppingcart.repository;
 
 import java.util.List;
 

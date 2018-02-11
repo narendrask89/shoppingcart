@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.nandulabs.shoppingcart.catalog.CatalogService;
 import com.nandulabs.shoppingcart.entities.Product;
+import com.nandulabs.shoppingcart.service.CatalogService;
 import com.nandulabs.shoppingcart.site.web.models.Cart;
 import com.nandulabs.shoppingcart.site.web.models.LineItem;
 

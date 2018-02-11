@@ -31,9 +31,9 @@ import com.nandulabs.shoppingcart.admin.security.SecurityUtil;
 import com.nandulabs.shoppingcart.admin.web.models.ProductForm;
 import com.nandulabs.shoppingcart.admin.web.utils.WebUtils;
 import com.nandulabs.shoppingcart.admin.web.validators.ProductFormValidator;
-import com.nandulabs.shoppingcart.catalog.CatalogService;
 import com.nandulabs.shoppingcart.entities.Category;
 import com.nandulabs.shoppingcart.entities.Product;
+import com.nandulabs.shoppingcart.service.CatalogService;
 
 /**
  * @author Nandu

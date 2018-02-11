@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.nandulabs.shoppingcart.catalog;
+package com.nandulabs.shoppingcart.service;
 
 import java.util.List;
 
@@ -12,6 +12,8 @@ import org.springframework.transaction.annotation.Transactional;
 import com.nandulabs.shoppingcart.ShoppingCartException;
 import com.nandulabs.shoppingcart.entities.Category;
 import com.nandulabs.shoppingcart.entities.Product;
+import com.nandulabs.shoppingcart.repository.CategoryRepository;
+import com.nandulabs.shoppingcart.repository.ProductRepository;
 
 /**
  * @author Nandu

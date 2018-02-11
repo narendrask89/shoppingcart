@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.nandulabs.shoppingcart.customers.CustomerService;
 import com.nandulabs.shoppingcart.entities.Customer;
 import com.nandulabs.shoppingcart.entities.Order;
+import com.nandulabs.shoppingcart.service.CustomerService;
 import com.nandulabs.shoppingcart.site.web.validators.CustomerValidator;
 
 /**

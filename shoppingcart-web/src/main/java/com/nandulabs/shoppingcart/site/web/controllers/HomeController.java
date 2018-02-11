@@ -15,9 +15,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.nandulabs.shoppingcart.catalog.CatalogService;
 import com.nandulabs.shoppingcart.entities.Category;
 import com.nandulabs.shoppingcart.entities.Product;
+import com.nandulabs.shoppingcart.service.CatalogService;
 
 /**
  * @author Nandu

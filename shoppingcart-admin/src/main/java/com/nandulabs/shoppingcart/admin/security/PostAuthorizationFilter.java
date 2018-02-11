@@ -14,7 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.nandulabs.shoppingcart.security.SecurityService;
+import com.nandulabs.shoppingcart.service.SecurityService;
 
 /**
  * @author Nandu

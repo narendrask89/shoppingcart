@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.nandulabs.shoppingcart.customers;
+package com.nandulabs.shoppingcart.service;
 
 import java.util.List;
 
@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.nandulabs.shoppingcart.entities.Customer;
 import com.nandulabs.shoppingcart.entities.Order;
+import com.nandulabs.shoppingcart.repository.CustomerRepository;
 
 /**
  * @author Nandu
