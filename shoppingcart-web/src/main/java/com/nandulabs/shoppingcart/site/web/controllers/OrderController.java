@@ -20,13 +20,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.nandulabs.shoppingcart.ShoppingCartException;
 import com.nandulabs.shoppingcart.common.services.EmailService;
 import com.nandulabs.shoppingcart.entities.Address;
 import com.nandulabs.shoppingcart.entities.Customer;
 import com.nandulabs.shoppingcart.entities.Order;
 import com.nandulabs.shoppingcart.entities.OrderItem;
 import com.nandulabs.shoppingcart.entities.Payment;
+import com.nandulabs.shoppingcart.exception.ShoppingCartException;
 import com.nandulabs.shoppingcart.service.CustomerService;
 import com.nandulabs.shoppingcart.service.OrderService;
 import com.nandulabs.shoppingcart.site.web.models.Cart;

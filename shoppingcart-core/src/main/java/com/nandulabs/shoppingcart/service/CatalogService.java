@@ -9,9 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.nandulabs.shoppingcart.ShoppingCartException;
 import com.nandulabs.shoppingcart.entities.Category;
 import com.nandulabs.shoppingcart.entities.Product;
+import com.nandulabs.shoppingcart.exception.ShoppingCartException;
 import com.nandulabs.shoppingcart.repository.CategoryRepository;
 import com.nandulabs.shoppingcart.repository.ProductRepository;
 

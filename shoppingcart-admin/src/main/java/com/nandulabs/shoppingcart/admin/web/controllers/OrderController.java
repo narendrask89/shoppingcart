@@ -18,10 +18,10 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
-import com.nandulabs.shoppingcart.ShoppingCartException;
 import com.nandulabs.shoppingcart.admin.security.SecurityUtil;
 import com.nandulabs.shoppingcart.common.services.EmailService;
 import com.nandulabs.shoppingcart.entities.Order;
+import com.nandulabs.shoppingcart.exception.ShoppingCartException;
 import com.nandulabs.shoppingcart.service.OrderService;
 
 /**

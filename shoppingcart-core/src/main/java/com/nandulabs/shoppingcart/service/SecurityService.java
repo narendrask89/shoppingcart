@@ -12,10 +12,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
-import com.nandulabs.shoppingcart.ShoppingCartException;
 import com.nandulabs.shoppingcart.entities.Permission;
 import com.nandulabs.shoppingcart.entities.Role;
 import com.nandulabs.shoppingcart.entities.User;
+import com.nandulabs.shoppingcart.exception.ShoppingCartException;
 import com.nandulabs.shoppingcart.repository.PermissionRepository;
 import com.nandulabs.shoppingcart.repository.RoleRepository;
 import com.nandulabs.shoppingcart.repository.UserRepository;

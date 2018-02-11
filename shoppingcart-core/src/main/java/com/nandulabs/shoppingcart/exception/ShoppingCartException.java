@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.nandulabs.shoppingcart;
+package com.nandulabs.shoppingcart.exception;
 
 /**
  * @author Nandu

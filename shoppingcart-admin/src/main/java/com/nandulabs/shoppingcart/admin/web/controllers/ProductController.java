@@ -26,13 +26,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.nandulabs.shoppingcart.ShoppingCartException;
 import com.nandulabs.shoppingcart.admin.security.SecurityUtil;
 import com.nandulabs.shoppingcart.admin.web.models.ProductForm;
 import com.nandulabs.shoppingcart.admin.web.utils.WebUtils;
 import com.nandulabs.shoppingcart.admin.web.validators.ProductFormValidator;
 import com.nandulabs.shoppingcart.entities.Category;
 import com.nandulabs.shoppingcart.entities.Product;
+import com.nandulabs.shoppingcart.exception.ShoppingCartException;
 import com.nandulabs.shoppingcart.service.CatalogService;
 
 /**
